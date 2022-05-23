@@ -7,16 +7,16 @@ html {
   padding: 0;
 }
 
-@font-face {
+/* @font-face {
   font-family: 'TT Norms';
-  src: url('./fonts/TTNorms-Light.otf');
+  src: url('https://stackblitz.com/storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBL2JCQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e487028ab4fd56020a9111c8f3971b8801dcf57f/TTNorms-Italic.otf');
   font-weight: 400;
-}
+} */
 
-@font-face {
+/* @font-face {
   font-family: 'Helvetica Now Display';
-  src: url(hf.otf);
-}
+  src: url('https://stackblitz.com/storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK2JCQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--896085c2eb6c396d4332e021d2af78a8c832d3a0/Helvetica%20Now%20Display%20Black.otf');
+} */
 
 #project {
   position: absolute;
