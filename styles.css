@@ -1,0 +1,239 @@
+body,
+html {
+  background: url('./bg.png') 0 100% no-repeat;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'TT Norms';
+  src: url('./fonts/TTNorms-Light.otf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Helvetica Now Display';
+  src: url(hf.otf);
+}
+
+#project {
+  position: absolute;
+  width: 745px;
+  height: 22px;
+  left: calc(50% - 745px / 2 - 0.5px);
+  top: calc(50% - 22px / 2 + 81px);
+
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.48em;
+
+  color: #ffffff;
+}
+
+#title {
+  position: absolute;
+  width: 251px;
+  height: 51px;
+  left: 80px;
+  top: 46px;
+
+  font-family: 'Helvetica Now Display';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 34.8611px;
+  line-height: 51px;
+
+  /* White */
+
+  color: #ffffff;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+
+  position: absolute;
+  width: 288px;
+  height: 24px;
+  left: 104px;
+  bottom: 80px;
+}
+
+#contact {
+  width: 70px;
+  height: 24px;
+
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -0.02em;
+  font-feature-settings: 'liga' off;
+
+  color: #ffffff;
+  text-decoration: none;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+#instagram {
+  width: 82px;
+  height: 21px;
+
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -0.02em;
+  font-feature-settings: 'liga' off;
+
+  color: #ffffff;
+
+  text-decoration: none;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+#press {
+  width: 72px;
+  height: 21px;
+
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -0.02em;
+  font-feature-settings: 'liga' off;
+
+  color: #ffffff;
+  text-decoration: none;
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+@media (max-width: 480px) {
+  body,
+  html {
+    background: url('./bg.png') 0 100% no-repeat;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  @font-face {
+    font-family: 'Helvetica Now Display';
+    src: url('hf.otf');
+  }
+
+  #title {
+    position: absolute;
+    width: 251px;
+    height: 51px;
+    left: 80px;
+    top: 46px;
+
+    font-family: 'Helvetica Now Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 34.8611px;
+    line-height: 51px;
+
+    /* White */
+
+    color: #ffffff;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+
+    position: absolute;
+    width: 288px;
+    height: 24px;
+    left: 104px;
+    bottom: 80px;
+  }
+
+  #contact {
+    width: 70px;
+    height: 24px;
+
+    font-family: 'TT Norms';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.02em;
+    font-feature-settings: 'liga' off;
+
+    color: #ffffff;
+    text-decoration: none;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  #instagram {
+    width: 82px;
+    height: 21px;
+
+    font-family: 'TT Norms';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.02em;
+    font-feature-settings: 'liga' off;
+
+    color: #ffffff;
+
+    text-decoration: none;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  #press {
+    width: 72px;
+    height: 21px;
+
+    font-family: 'TT Norms';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.02em;
+    font-feature-settings: 'liga' off;
+
+    color: #ffffff;
+    text-decoration: none;
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+  }
+}
